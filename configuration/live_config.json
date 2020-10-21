@@ -1,0 +1,23 @@
+{
+  "dataset": {
+    "image_dir": "/Your/Path",
+    "score_file": "/Your/Path"
+  },
+   "transform": {
+    "patch_size": [
+      224,
+      224
+    ],
+    "channel_num": 3
+  },
+  "train": {
+    "muti_gpu": false,
+    "num_epochs": 100,
+    "learning_rate": 2e-5,
+    "weight_decay": 1e-3
+  },
+  "project": {
+    "log_file": "save/log.txt",
+    "save_model": "save/model_one.pt"
+  }
+}
